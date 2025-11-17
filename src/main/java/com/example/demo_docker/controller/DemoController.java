@@ -23,7 +23,7 @@ public class DemoController {
         return ResponseEntity.ok("Welcome to Kubernetes ");
     }
 
-    @GetMapping("/jecnkins")
+    @GetMapping("/jenkins")
     public ResponseEntity<String> getJenkinsMessage(){
         return ResponseEntity.ok("Welcome to jenkins");
     }
