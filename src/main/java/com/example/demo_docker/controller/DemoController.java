@@ -25,7 +25,7 @@ public class DemoController {
 
     @GetMapping("/jenkins")
     public ResponseEntity<String> getJenkinsMessage(){
-        return ResponseEntity.ok("Welcome to jenkins, the auto restart is working fine......");
+        return ResponseEntity.ok("Welcome to jenkins, jenkins is going on");
     }
 
 
