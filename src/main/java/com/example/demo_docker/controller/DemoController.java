@@ -25,7 +25,7 @@ public class DemoController {
 
     @GetMapping("/jenkins")
     public ResponseEntity<String> getJenkinsMessage(){
-        return ResponseEntity.ok("Welcome to jenkins, jenkins is going on");
+        return ResponseEntity.ok("Welcome to jenkins, when we do the commit it is automatically running");
     }
 
 
