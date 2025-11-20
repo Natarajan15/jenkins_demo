@@ -24,7 +24,7 @@ pipeline{
             
            when{
                expression{
-                   ENVIRONMENT== 'testing'
+                   params.ENVIRONMENT== 'testing'
                }
            }
             steps{
